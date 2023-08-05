@@ -34,9 +34,13 @@ Just replace kafka with the value of container_name, if you’ve decided to name
 	ii) key value pair poduce data command : kafka-console-producer.sh --broker-list localhost:9092 --topic first_kafka_topic --property parse.key=true --property key.separator=:
 
 
+7) essential command for manage kafka,
+	i)get all topics name = kafka-topics.sh --bootstrap-server localhost:9092 --list
+	ii) delete a topic = kafka-topics.sh --bootstrap-server localhost:9092 --delete --topic first_kafka_topic  //it will take some time to delete this topic.
+	iii) get details about a topic  = kafka-topics.sh --bootstrap-server localhost:9092 --describe --topic  first_kafka_topic
+	iv)  
 
 
 
 
-
-
+ 

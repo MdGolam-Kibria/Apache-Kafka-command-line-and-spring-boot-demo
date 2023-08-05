@@ -1,0 +1,6 @@
+1) docker ps #This command shows only the running containers. It is useful for quickly checking the status of containers that are currently active.
+2) docker ps -a # This command shows all containers, whether they are running or stopped. It provides a complete list of all containers on your system, regardless of their current state.
+3) docker-compose down #you can use [docker-compose down] to stop and remove all containers defined in your docker-compose.yml file:
+4) docker stop <container_id_or_name>#Stop the existing container (if it's running)
+5) docker rm <container_id_or_name># Remove the existing container.
+6) 
